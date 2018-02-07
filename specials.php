@@ -20,19 +20,21 @@ include_once('include/config.php');
 	</head>
 	<body class="homepage">
 		<div id="page-wrapper">
-			<?php include("include/nav.inc")?>
-            
-<!-- Slideshow container -->
-<div class="slideshow-container" style="max-width:1700px;">
 
- 
-  <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)" >&#10095;</a>
-</div>
+			<?php include("include/nav.inc")?>
+
+			<!-- Banner -->
+				<!-- <div id="banner-wrapper" style="background-image:url(images/background_image.jpg)" >
+					<section id="banner">
+						<h2>WELCOME TO WECARE MASSAGE & NATURAL THERAPHY</h2>
+						<a href="#" class="button">Alright let's go</a>
+					</section>
+				</div> -->
+<!-- Slideshow container -->
 <br>
 
 <!-- The dots/circles -->
+
 	<!-- Main -->
 				<div id="main-wrapper">
 					<div id="main" class="container">
@@ -40,22 +42,40 @@ include_once('include/config.php');
 							<div class="12u">
 
 								<!-- Highlight -->
-									<section class="box highlight">
-										
+						                <section class="box highlight">
 										<header>
+											<h2>WE OFFER $5 DISCOUNT FOR 10 TIMES VISIT</h2>
 											
-								
 										</header>
-										<p class="menu">
-											<img src="images/price list.jpg">
+                                       
+										<h2 class="major"></h2>
+									
+											<div class="row">
+												<div class="3u 12u(mobile)">
+                                                </div>
+                                          </div>
+										<p>
+                                        <h2>Winter special</h2>
+                                       <h3>$40 for Refiexology<br>
+                                       +Free Steam Eye Mask<br>
+                                       +Free Herbal Foot Spa</h3>
+                                      			
+											<h3>Ask one of our friendly staff to get a discout card</h3><br>
+                                          </p>
+                                          <img src="images/specials.jpg" style="width:800px; height:500px" >
+                                         
+                              </section>  
+                                            
+
 										</p>
 									</section>
 
 							</div>
 						</div>
-                            
+						
 
 								
+
 			<!-- Footer -->
 				<footer id="footer" class="container">
 					<div class="row 200%"> </div>
@@ -63,7 +83,7 @@ include_once('include/config.php');
 						<div class="12u">
 
 							<!-- Contact -->
-						  <section>
+								<section>
 									<h2 class="major"><span>Get in touch</span></h2>
 									<ul class="contact">
 										<li><a class="icon fa-facebook" href="https://www.facebook.com/wecaremassage"><span class="label">Facebook</span></a></li>
@@ -94,10 +114,8 @@ include_once('include/config.php');
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/skel-viewport.min.js"></script>
 			<script src="assets/js/util.js"></script>
-            
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
-            <script src="js/show_text.js"></script>
 
 	</body>
 </html>
