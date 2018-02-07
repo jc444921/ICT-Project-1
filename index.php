@@ -22,53 +22,8 @@ include_once('include/config.php');
 	</head>
 	<body class="homepage">
 		<div id="page-wrapper">
-
-			<!-- Header -->
-				<header id="header">
-					<div class="logo container">
-						<div>
-							<h1><a href="index.html" id="logo"></a></h1>
-							<p>WeCare Massage & Natural Theraphy</p>
-						</div>
-					</div>
-				</header>
-
-			<!-- Nav -->
-				<nav id="nav">
-					<ul>
-						<li class="current"><a href="index.html">Home</a></li>
-						<li>
-						  <a href="treatments.html">Treatments</a>
-							<ul>
-								<li><a href="ourtreatment.html">OUR TREATMENT</a></li>
-								<li><a href="healthfund.html">HEALTH FUND REBATE</a></li>
-								<li>
-									<a href="products.html">Phasellus consequat</a>
-									<ul>
-										<li><a href="#">Lorem ipsum dolor</a></li>
-										<li><a href="#">Phasellus consequat</a></li>
-										<li><a href="#">Magna phasellus</a></li>
-										<li><a href="#">Etiam dolore nisl</a></li>
-									</ul>
-								</li>
-								<li><a href="prices.html">Veroeros feugiat</a></li>
-							</ul>
-						</li>
-						<li><a href="specials.html">SPECIALS</a></li>
-                        <li><a href="bookonline.html">BOOK ONLINE</a></li>
-						<li><a href="login.html">LOG IN</a></li>
-                        <li><a href="careers.html">CAREERS</a></li><li>
-                        <a href="aboutus.html">ABOUT US</a></li>
-					</ul>
-				</nav>
-
-			<!-- Banner -->
-				<!-- <div id="banner-wrapper" style="background-image:url(images/background_image.jpg)" >
-					<section id="banner">
-						<h2>WELCOME TO WECARE MASSAGE & NATURAL THERAPHY</h2>
-						<a href="#" class="button">Alright let's go</a>
-					</section>
-				</div> -->
+				<?php include("include/nav.inc")?>
+                
 <!-- Slideshow container -->
 <div class="slideshow-container" style="max-width:1700px;">
 
@@ -76,19 +31,19 @@ include_once('include/config.php');
   <div class="mySlides fade">
     <div class="numbertext">1 / 3</div>
     <img src="images/slideshow img 1.jpg">
-    <div class="text">Caption Text</div>
+    <div class="text">Theraphuetic Massage</div>
   </div>
 
   <div class="mySlides fade">
-    <div class="numbertext">2 / 3</div>
-    <img src="images/slideshow img 1.jpg">
-    <div class="text">Caption Two</div>
+    <div class="numbertext">2 / 3</div>	
+    <img src="images/backgroundimage2.jpg">
+    <div class="text">Remedial Massage</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">3 / 3</div>
-    <img src="images/slideshow img 1.jpg">
-    <div class="text">Caption Three</div>
+    <img src="images/backgroundimage3.jpg">
+    <div class="text">Oil Massage</div>
   </div>
 
   <!-- Next and previous buttons -->
@@ -322,11 +277,11 @@ It is our duty to deliver the most pleasing experience tailored to your need. Th
 								<section>
 									<h2 class="major"><span>Get in touch</span></h2>
 									<ul class="contact">
-										<li><a class="icon fa-facebook" href="#"><span class="label">Facebook</span></a></li>
-										<li><a class="icon fa-twitter" href="#"><span class="label">Twitter</span></a></li>
-										<li><a class="icon fa-instagram" href="#"><span class="label">Instagram</span></a></li>
-										<li><a class="icon fa-dribbble" href="#"><span class="label">Dribbble</span></a></li>
-										<li><a class="icon fa-google-plus" href="#"><span class="label">Google+</span></a></li>
+										<li><a class="icon fa-facebook" href="https://www.facebook.com/wecaremassage"><span class="label">Facebook</span></a></li>
+										<li><a class="icon fa-twitter" href="https://twitter.com/We_Care_Massage"><span class="label">Twitter</span></a></li>
+										<li><a class="icon fa-instagram" href="https://www.instagram.com/wecaremassage/"><span class="label">Instagram</span></a></li>
+										<li><a class="icon fa-dribbble" href="https://dribbble.com/We_Care_Massage"><span class="label">Dribbble</span></a></li>
+										
 									</ul>
 								</section>
 
